@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>手工制作</title>
+		<link rel="stylesheet" href="../css/make.css">
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="wrap" >
+			<div class="w-fix">
+				<a href="#one"><b><p>&Lambda;</p></b></a>
+				<!-- <p class="fix">回到顶部</p> -->
+			</div>
+			<div class="header" id="one" name="one">
+				<div class="top">
+					<img src="img/logo1.png" alt="">
+					<ul>
+						<li><a href="../index.html">网站首页</a></li>
+						<li><a href="sweet.html">精致甜品</a></li>
+						<li><a href="coffee.html">香醇咖啡</a></li>
+						<li><a href="fruit.html">夏日饮品</a></li>
+						<!-- <li><a href="">有机蔬果</a></li> -->
+						<li><a href="make.html">手工制作</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="main">
+				<div class="on">	
+				</div>
+				<div class="to">
+					<h1>欢乐一夏，手工制作</h1>
+					<div class="t-left">
+						<img src="../img/22.jpg" >
+						<p>动手创作属于自己独一无二的作品，静下心来，品一品这悠闲的食光。独属于你的小idear，你将成为夏日之星。</p>
+					</div>
+					<div class="t-right">
+						<img src="../img/81.jpg" >
+						<p>动手创作属于自己独一无二的作品，静下心来，品一品这悠闲的食光。独属于你的小idear，你将成为夏日之星。</p>
+					</div>
+				</div>
+				<div class="off">
+					<img src="../img/83.jpg" alt="">
+					<ul class="of-img">
+						<li><img src="../img/82.jpg" alt=""></li>
+						<li><img src="../img/21.jpg" alt=""></li>
+						<li><img src="../img/66.jpg" alt=""></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			
+			<div class="footer">
+					<div class="f-bot">
+						<div class="f-left">
+							<img src="../img/logo1.png" alt="">
+							<p>免费服务热线：</p>
+							<span>400-6969-222</span>
+							<h3>地址：重庆市渝中区顺拐街道123号</h3>
+						</div>
+						<div class="f-right">
+							<ul>
+								<li>
+									<p>快速扫描二维码</p>
+									<img src="../img/q.jpg" alt=""></li>
+								<li>
+									<p>官方微信</p>
+									<img src="../img/q.jpg" alt=""></li>
+							</ul>
+						</div>
+						<div class="f-on">
+							<ul>
+							<li><a href="">关于我们</a><span>|</span></li>
+							<li><a href="">商家合作</a><span>|</span></li>
+							<li><a href="">友情链接</a><span>|</span></li>
+							<li><a href="">投诉建议</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<script>
+			$(function(){
+				
+				// 吸顶导航
+				$(window).scroll(function(){
+					var scrollTop = $(window).scrollTop();
+					// console.log(scrollTop)
+					var height = $('.header').height();
+					console.log(height);
+					
+					if(scrollTop>height){
+						$('.top').css({position:'fixed',top:'0px'})
+					}else{
+						$('.top').css({position:'static'})
+					}
+				})
+				
+				$('.of-img li img').mouseover(function(){
+					$(this).animate({zoom:'1.1'},500)
+				})
+				$('.of-img li img').mouseout(function(){
+					$(this).animate({zoom:'1'},500)
+			})
+			})
+		</script> 
+	</body>
+</html>

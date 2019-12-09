@@ -1,0 +1,121 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+
+
+
+.wrap{width:100%;overflow:hidden;position:relative;}
+.w-fix{width:70px;height:60px;background: #7F7F7F;position: fixed;right:0;bottom:100px;z-index:100;font-family:苹方;border:2px solid transparent;z-index: 600;}
+.w-fix:hover{background: #a74e4e;border:2px solid #000;}
+.w-fix>a>p{font-size:40px;color:#fff;text-align: center;}
+
+
+.headers>.top{width:100%;height:80px;background:rgba(0, 0, 0, 0.5);overflow:hidden;}
+.top>img{float:left;margin-left:120px;margin-top:15px;}
+.top>ul{width:50%;height:50px;float:right;text-align:center;margin-top:15px;}
+.top>ul>li{width:100px;height:50px;float:left;}
+.top>ul>li>a{width:100px;height:50px;color:#fff;font-size:18px;font-family:苹方;line-height:60px;}
+.top>ul>li:hover{width:100px;height:50px;background:#fff;}
+.top>ul>li>a:hover{color:#000;}
+		
+			
+			/* 整个大盒子 */
+			.wrap>.box{width:100%;position:absolute;top:0;left:0;z-index: -1;}
+			
+			/* 第一部分 */
+			.wrap>.box>.header{width:100%;height:695px;background:url(../img/35.jpg) center/100% no-repeat;position:relative;z-index:-1;}
+		
+			.wrap>.box>.header>.h-left>img{width:513px;height:695px;position:absolute;left:-700px;opacity:0;}
+			
+			/* 第一部分右边 */
+			.wrap>.box>.header>.h-right{width:650px;height:200px;position:absolute;right:-800px;opacity:0;}
+			.wrap>.box>.header>.h-right>p.br-mid{font-size:70px;}
+			.wrap>.box>.header>.h-right>a>p{width:140px;height:35px;background:#fff;line-height:35px;text-align:center;border-radius:40px;font-size:15px;position:absolute;top:135px;right:62px;}
+			.wrap>.box>.header>.h-right>a>p:hover{background:#373A41;color:#fff;}
+			
+			/* 第二部分 */
+			.wrap>.box>.one{width:100%;height:695px;background:#FAFAFA;position:relative;z-index:-1;}
+			
+			/* 第二部分左边 */
+			.wrap>.box>.one>.o-left{width:40%;height:500px;position:absolute;left:-700px;opacity:0;}
+		
+			.wrap>.box>.one>.o-left>.ol-down{width:480px;height:75px;float:right;margin-right:16px;}
+			.wrap>.box>.one>.o-left>.ol-down>p{font-size:20px;position:absolute;top:85px;}
+			.wrap>.box>.one>.o-left>hr{background:#E0ECF0;margin-top:135px;}
+			.wrap>.box>.one>.o-left>ul{width:539px;height:400px;margin-top:40px;}
+			.wrap>.box>.one>.o-left>ul>li{width:50%;float:left;margin-top:10px;}
+			.wrap>.box>.one>.o-left>ul>li>img{width:255px;height:200px;border-radius: 20px;}
+
+
+			
+			/* 第二部分右边 */
+			.wrap>.box>.one>.o-right{width:40%;height:100%;position:absolute;right:-700px;opacity:0;margin-right:50px;}
+			/* .wrap>.box>.one>.o-right>p{margin-top:90px;margin-left:202px;font-size:20px} */
+			.wrap>.box>.one>.o-right>img{margin-top:120px;width:450px;height:530px;border-radius: 20px;}
+			.wrap>.box>.one>.o-right>ul>li>a>p>span{margin-left:310px;}
+
+			
+			/* 第三部分 */
+			.wrap>.box>.two{width:100%;height:695px;position:relative;z-index:-1;}
+			
+			/* 第三部分左边 */
+			.wrap>.box>.two>.t-left{width:41%;height:100%;position:absolute;left:-700px;}
+			.wrap>.box>.two>.t-left>span{font-size:25px;}
+			.wrap>.box>.two>.t-left>.tl-on{width:80%;height:600px;}
+			.wrap>.box>.two>.t-left>.tl-on>p{margin-left:65px;}
+			.wrap>.box>.two>.t-left>.tl-on>p.tl-of{margin-left:360px;}
+			#img{margin-left:275px;width:235px;margin-top:-100px;border-radius: 10px;}
+			#imgs{width:235px;margin-top:50px;border-radius: 10px;}
+			
+			/* 第三部分右边 */
+			.wrap>.box>.two>.t-right{width:42%;height:100%;position:absolute;right:-700px;opacity:0;}
+			.wrap>.box>.two>.t-right>.tr-on{width:530px;height:500px;float:right;margin-top: 30px;}
+			.wrap>.box>.two>.t-right>.tr-on>p{font-size:20px;margin-top: 30px;font-family: 微软雅黑;}
+			/* .wrap>.box>.two>.t-right>.tr-on>p>span{margin-left:300px;} */
+			.wrap>.box>.two>.t-right>.tr-on>ul{margin-top: 80px;}
+			.wrap>.box>.two>.t-right>.tr-on>ul>li{float:left;margin-left:10px;}
+			.wrap>.box>.two>.t-right>.tr-on>ul>li>img{width:166px;height:130px;border-radius: 10px;}
+			
+			/* 第四部分 */
+			.wrap>.box>.three{width:100%;height:695px;position:relative;z-index:-1;}
+			
+			/* 第四部分左边 */
+			 .wrap>.box>.three>.tt-left{width:42%;height:400px;position:absolute;left:-700px;opacity:0;}
+			.wrap>.box>.three>.tt-left>img{width:450px;height:500px;float:left;border-radius: 10px;}
+			
+			
+			/* 第四部分右边 */
+			 .wrap>.box>.three>.tt-right{width:40%;height:530px;position:absolute;right:-700px;opacity:0;}
+
+
+			.wrap>.box>.three>.tt-right>ul{width:530px;height:500px;}
+			.wrap>.box>.three>.tt-right>ul>li{width:530px;height:30px;float:left;margin-top:30px;}
+			.wrap>.box>.three>.tt-right>ul>li>img{width:60px;margin-left:20px;}
+			.wrap>.box>.three>.tt-right>ul>li>p{margin-left:85px;font-family:微软雅黑;font-size:20px;margin-top:30px;}
+			.wrap>.box>.three>.tt-right>ul>li>span{margin-left:40px;margin-top:20px;font-family:微软雅黑;font-size:22px;}
+			/* .wrap>.box>.three>.tt-right>ul>li>p{margin-left:60px;font-size:16px;margin-top:20px;} */
+
+			/* 第五部分 */
+			.wrap>.box>.footer{width:100%;height:695px;position:relative;} 
+
+
+.footer>img{width:100%;height:300px;}
+ .footer>.f-bot{width:100%;height:400px;background:#1A1A1A;overflow: hidden;}
+  
+.footer>.f-bot>.f-left{width:30%;height:300px;float:left;margin-left:220px}
+.footer>.f-bot>.f-left>img{margin-top:50px;}
+.footer>.f-bot>.f-left>p{color:#fff;font-size:30px;font-family:苹方;margin-top:20px;border-bottom: 2px solid #ccc;height:55px;width:350px;}
+.footer>.f-bot>.f-left>span{color:#fff;font-size:45px;font-family:苹方;margin-top:20px;}
+.footer>.f-bot>.f-left>h3{color:#fff;font-family:苹方;margin-top:35px;}
+.footer>.f-bot>.f-right{width:40%;height:300px;float:right;margin-right:60px;}
+.footer>.f-bot>.f-right>ul{margin-top:50px;}
+.footer>.f-bot>.f-right>ul>li{float:left;margin:20px 80px 0 0;}
+.footer>.f-bot>.f-right>ul>li>p{color:#fff;font-size:20px;font-family:苹方;}
+
+.footer>.f-bot>.f-on{width:100%;height:50px;margin-top:330px;}
+.footer>.f-bot>.f-on>ul{width:30%;height:50px;margin-left:450px;text-align: center;}
+.footer>.f-bot>.f-on>ul>li{width:100px;height:35px;float:left;text-align: center;}
+.footer>.f-bot>.f-on>ul>li>a{color:#fff;margin-top:7px;}
+.footer>.f-bot>.f-on>ul>li>a:hover{border-bottom: 1px solid #fff;}
+.footer>.f-bot>.f-on>ul>li>span{margin-left:15px;color:#fff;} 
